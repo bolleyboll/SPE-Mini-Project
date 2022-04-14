@@ -1,0 +1,368 @@
+package org.iiitb;
+
+import java.util.InputMismatchException;
+import java.util.Random;
+import java.util.Scanner;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
+
+public class App {
+
+    private static final Logger logger = LogManager.getLogger(App.class);
+
+    public App() {
+    }
+
+    public double addition(double a, double b) {
+        logger.info("[ADDITION] - " + a + " " + b);
+        double res = a + b;
+        logger.info("[RESULT - ADDITION] - " + res);
+        return res;
+    }
+
+    public double subtraction(double a, double b) {
+        logger.info("[SUBTRACTION] - " + a + " " + b);
+        double res = a - b;
+        logger.info("[RESULT - SUBTRACTION] - " + res);
+        return res;
+    }
+
+    public double multiplication(double a, double b) {
+        logger.info("[MULTIPLICATION] - " + a + " " + b);
+        double res = a * b;
+        logger.info("[RESULT - MULTIPLICATION] - " + res);
+        return res;
+    }
+
+    public double division(double a, double b) {
+        logger.info("[DIVISION] - " + a + " " + b);
+        double res = a / b;
+        logger.info("[RESULT - DIVISION] - " + res);
+        return res;
+    }
+
+    public double factorial(double n) {
+        logger.info("[FACTORIAL] - " + n);
+        double res = fact(n);
+        logger.info("[RESULT - FACTORIAL] - " + res);
+        return res;
+    }
+
+    public double fact(double n) {
+        double factorial = 1;
+        for (int i = 1; i <= n; ++i) {
+            factorial *= i;
+        }
+        return factorial;
+    }
+
+    public double logBase10(double n) {
+        logger.info("[LOGBASE10] - " + n);
+        double res = Math.log10(n);
+        logger.info("[RESULT - LOGBASE10] - " + res);
+        return res;
+    }
+
+    public double logBBaseA(double a, double b) {
+        logger.info("[LOG B BASE A] - " + b + " " + a);
+        double res = Math.log10(a) / Math.log10(b);
+        logger.info("[RESULT - LOG B BASE A] - " + res);
+        return res;
+    }
+
+    public double sqrt(double n) {
+        logger.info("[SQRT] - " + n);
+        double res = Math.sqrt(n);
+        logger.info("[RESULT - SQRT] - " + res);
+        return res;
+    }
+
+    public double squared(double n) {
+        logger.info("[SQUARED] - " + n);
+        double res = Math.pow(n, 2);
+        logger.info("[RESULT - SQUARED] - " + res);
+        return res;
+    }
+
+    public double pow(double a, double n) {
+        logger.info("[POW] - " + a + " " + n);
+        double res = Math.pow(a, n);
+        logger.info("[RESULT - POW] - " + res);
+        return res;
+    }
+
+    public double sin(double x) {
+        logger.info("[SIN] - " + x);
+        double res = Math.sin(x);
+        logger.info("[RESULT - SIN] - " + res);
+        return res;
+    }
+
+    public double cos(double x) {
+        logger.info("[COS] - " + x);
+        double res = Math.cos(x);
+        logger.info("[RESULT - COS] - " + res);
+        return res;
+    }
+
+    public double tan(double x) {
+        logger.info("[TAN] - " + x);
+        double res = Math.tan(x);
+        logger.info("[RESULT - TAN] - " + res);
+        return res;
+    }
+
+    public double sinh(double x) {
+        logger.info("[SINH] - " + x);
+        double res = Math.sinh(x);
+        logger.info("[RESULT - SINH] - " + res);
+        return res;
+    }
+
+    public double cosh(double x) {
+        logger.info("[COSH] - " + x);
+        double res = Math.cosh(x);
+        logger.info("[RESULT - COSH] - " + res);
+        return res;
+    }
+
+    public double tanh(double x) {
+        logger.info("[TANH] - " + x);
+        double res = Math.tanh(x);
+        logger.info("[RESULT - TANH] - " + res);
+        return res;
+    }
+
+    public void random() {
+        for (int i = 0; i < 3000; i++) {
+            int res = new Random().nextInt(16);
+
+            switch (res) {
+                case 0:
+                    addition(new Random().nextDouble() * 100, new Random().nextDouble() * 100);
+                    break;
+
+                case 1:
+                    subtraction(new Random().nextDouble() * 100, new Random().nextDouble() * 10);
+                    break;
+                case 2:
+                    multiplication(new Random().nextDouble() * 10, new Random().nextDouble() * 10);
+                    break;
+                case 3:
+                    division(new Random().nextDouble() * 100, new Random().nextDouble() * 10);
+                    break;
+                case 4:
+                    factorial(new Random().nextDouble() * 100);
+                    break;
+                case 5:
+                    logBase10(new Random().nextDouble() * 10);
+                    break;
+                case 6:
+                    logBBaseA(new Random().nextDouble() * 10, new Random().nextDouble() * 10);
+                    break;
+                case 7:
+                    sqrt(new Random().nextDouble() * 1000);
+                    break;
+                case 8:
+                    squared(new Random().nextDouble() * 10);
+                    break;
+                case 9:
+                    pow(new Random().nextDouble() * 100, new Random().nextDouble() * 10);
+                    break;
+                case 10:
+                    sin(new Random().nextDouble() * 10);
+                    break;
+                case 11:
+                    cos(new Random().nextDouble() * 10);
+                    break;
+                case 12:
+                    tan(new Random().nextDouble() * 10);
+                    break;
+                case 13:
+                    sinh(new Random().nextDouble() * 10);
+                    break;
+                case 14:
+                    cosh(new Random().nextDouble() * 10);
+                    break;
+                case 15:
+                    tanh(new Random().nextDouble() * 10);
+                    break;
+                default:
+                    break;
+            }
+        }
+    }
+
+    public double naturalLog(double number1) {
+        logger.info("[NATURAL LOG] - " + number1);
+        double result = 0;
+        try {
+
+            if (number1 < 0) {
+                result = Double.NaN;
+                throw new ArithmeticException("Case of NaN 0.0/0.0");
+            } else {
+                result = Math.log(number1);
+            }
+        } catch (ArithmeticException error) {
+            System.out
+                    .println("[EXCEPTION - LOG] - Cannot find log of negative numbers " + error.getLocalizedMessage());
+        }
+        logger.info("[RESULT - NATURAL LOG] - " + result);
+        return result;
+    }
+
+    public static void main(String[] args) {
+
+        double a, b;
+
+        App calc = new App();
+
+        Scanner sc = new Scanner(System.in);
+
+        do {
+            int choice;
+            String menu = "1. Addition(a/b)\n" + "2. Subtraction(a-b)\n" + "3. Multiplication(a*b)\n"
+                    + "4. Division(n/d)\n" + "5. Factorial of n(n!)\n" + "6. log\u2081\u2080 n\n" + "7. log\u2090 b\n"
+                    + "8. Square Root of n(\u221An)\n" + "9. n Squared(n\u00B2)\n" + "10. a\u207F\n" + "11. sin x\n"
+                    + "12. cos x\n" + "13. tan x\n" + "14. sinh x\n" + "15. cosh x\n" + "16. tanh x\n"
+                    + "17. Random 3k Calls\n" + "18. Exit";
+
+            System.out.println("Choose any Operation");
+            System.out.println(menu);
+            System.out.println("Please enter your choice:");
+            try {
+                choice = sc.nextInt();
+            } catch (InputMismatchException error) {
+                sc.close();
+                return;
+            }
+
+            switch (choice) {
+                case 1:
+
+                    System.out.print("\nEnter a: ");
+                    a = sc.nextDouble();
+                    System.out.print("\nEnter b: ");
+                    b = sc.nextDouble();
+                    System.out.println("Sum of " + a + " & " + b + " is: " + calc.addition(a, b));
+                    System.out.println("\n");
+
+                    break;
+                case 2:
+                    System.out.print("\nEnter a: ");
+                    a = sc.nextDouble();
+                    System.out.print("\nEnter b: ");
+                    b = sc.nextDouble();
+                    System.out.println("Difference between " + a + " & " + b + " is: " + calc.subtraction(a, b));
+                    System.out.println("\n");
+                    break;
+                case 3:
+                    System.out.print("\nEnter a: ");
+                    a = sc.nextDouble();
+                    System.out.print("\nEnter b: ");
+                    b = sc.nextDouble();
+                    System.out.println("Product of " + a + " & " + b + " is: " + calc.multiplication(a, b));
+                    System.out.println("\n");
+                    break;
+                case 4:
+                    System.out.print("\nEnter n: ");
+                    a = sc.nextDouble();
+                    System.out.print("\nEnter d: ");
+                    b = sc.nextDouble();
+                    System.out.println("Quotient of " + a + "/" + b + " is: " + calc.division(a, b));
+                    System.out.println("\n");
+                    break;
+                case 5:
+                    System.out.print("\nEnter n: ");
+                    a = sc.nextDouble();
+                    System.out.println("Factorial of " + a + " is: " + calc.factorial(a));
+                    System.out.println("\n");
+                    break;
+                case 6:
+                    System.out.print("\nEnter n: ");
+                    a = sc.nextDouble();
+                    System.out.println("log\u2081\u2080 " + a + " is: " + calc.logBase10(a));
+                    System.out.println("\n");
+                    break;
+                case 7:
+                    System.out.print("\nEnter a(base): ");
+                    a = sc.nextDouble();
+                    System.out.print("\nEnter b: ");
+                    b = sc.nextDouble();
+                    System.out.println("log " + b + " base " + a + " is: " + calc.logBBaseA(a, b));
+                    System.out.println("\n");
+                    break;
+                case 8:
+                    System.out.print("\nEnter n: ");
+                    a = sc.nextDouble();
+                    System.out.println("\u221A" + a + " is: " + calc.sqrt(a));
+                    System.out.println("\n");
+                    break;
+                case 9:
+                    System.out.print("\nEnter n: ");
+                    a = sc.nextDouble();
+                    System.out.println(a + "\u00B2 is: " + calc.squared(a));
+                    System.out.println("\n");
+                    break;
+                case 10:
+                    System.out.print("\nEnter a(base): ");
+                    a = sc.nextDouble();
+                    System.out.print("\nEnter n(exp): ");
+                    b = sc.nextDouble();
+                    System.out.println(a + " ^ " + b + " is: " + calc.pow(a, b));
+                    System.out.println("\n");
+                case 11:
+                    System.out.print("\nEnter x: ");
+                    a = sc.nextDouble();
+                    System.out.println("sin " + a + " is: " + calc.sin(a));
+                    System.out.println("\n");
+                    break;
+                case 12:
+                    System.out.print("\nEnter x: ");
+                    a = sc.nextDouble();
+                    System.out.println("cos " + a + " is: " + calc.cos(a));
+                    System.out.println("\n");
+                    break;
+                case 13:
+                    System.out.print("\nEnter x: ");
+                    a = sc.nextDouble();
+                    System.out.println("tan " + a + " is: " + calc.tan(a));
+                    System.out.println("\n");
+                    break;
+                case 14:
+                    System.out.print("\nEnter x: ");
+                    a = sc.nextDouble();
+                    System.out.println("sinh " + a + " is: " + calc.sinh(a));
+                    System.out.println("\n");
+                    break;
+                case 15:
+                    System.out.print("\nEnter x: ");
+                    a = sc.nextDouble();
+                    System.out.println("cosh " + a + " is: " + calc.cosh(a));
+                    System.out.println("\n");
+                    break;
+                case 16:
+                    System.out.print("\nEnter x: ");
+                    a = sc.nextDouble();
+                    System.out.println("tanh " + a + " is: " + calc.tanh(a));
+                    System.out.println("\n");
+                    break;
+                case 17:
+                    System.out.println("Starting Random Calls");
+                    calc.random();
+                    System.out.println("Random Ended");
+                    break;
+                case 18:
+                    System.out.println("Thank you");
+                    sc.close();
+                    return;
+                default:
+                    System.out.println("Invalid Option - Exiting Application");
+                    sc.close();
+                    return;
+            }
+        } while (true);
+    }
+
+}
