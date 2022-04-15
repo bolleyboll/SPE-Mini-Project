@@ -1,0 +1,8 @@
+---
+- name: Pull Docker Image of freshlyjuiced/spe-mini-proj
+  hosts: all
+  tasks:
+    - name: Pull Calculator Image
+      docker_image:
+        name: freshlyjuiced/spe-mini-proj
+        source: pull
