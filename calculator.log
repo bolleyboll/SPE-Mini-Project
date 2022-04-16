@@ -18006,3 +18006,118 @@
 2022-04-14 20:16:42.269 [main] INFO  org.iiitb.App - [RESULT - SUBTRACTION] - 94.57893313972735
 2022-04-14 20:16:42.269 [main] INFO  org.iiitb.App - [COSH] - 0.28739368714123636
 2022-04-14 20:16:42.269 [main] INFO  org.iiitb.App - [RESULT - COSH] - 1.0415825975989295
+2022-04-15 20:36:08.109 [main] INFO  org.iiitb.App - [DIVISION] - 15.0 0.0
+2022-04-15 20:36:08.112 [main] INFO  org.iiitb.App - [RESULT - DIVISION] - Infinity
+2022-04-15 20:36:08.116 [main] INFO  org.iiitb.App - [ADDITION] - 15.0 20.0
+2022-04-15 20:36:08.117 [main] INFO  org.iiitb.App - [RESULT - ADDITION] - 35.0
+2022-04-15 20:36:08.118 [main] INFO  org.iiitb.App - [SUBTRACTION] - 25.0 20.0
+2022-04-15 20:36:08.118 [main] INFO  org.iiitb.App - [RESULT - SUBTRACTION] - 5.0
+2022-04-15 20:36:08.119 [main] INFO  org.iiitb.App - [DIVISION] - 56.0 10.0
+2022-04-15 20:36:08.120 [main] INFO  org.iiitb.App - [RESULT - DIVISION] - 5.6
+2022-04-15 20:36:08.120 [main] INFO  org.iiitb.App - [MULTIPLICATION] - 10.0 25.0
+2022-04-15 20:36:08.121 [main] INFO  org.iiitb.App - [RESULT - MULTIPLICATION] - 250.0
+2022-04-16 08:59:08.977 [main] INFO  org.iiitb.App - [DIVISION] - 15.0 0.0
+2022-04-16 08:59:08.979 [main] INFO  org.iiitb.App - [RESULT - DIVISION] - Infinity
+2022-04-16 08:59:08.982 [main] INFO  org.iiitb.App - [ADDITION] - 15.0 20.0
+2022-04-16 08:59:08.982 [main] INFO  org.iiitb.App - [RESULT - ADDITION] - 35.0
+2022-04-16 08:59:08.983 [main] INFO  org.iiitb.App - [SUBTRACTION] - 25.0 20.0
+2022-04-16 08:59:08.983 [main] INFO  org.iiitb.App - [RESULT - SUBTRACTION] - 5.0
+2022-04-16 08:59:08.984 [main] INFO  org.iiitb.App - [DIVISION] - 56.0 10.0
+2022-04-16 08:59:08.984 [main] INFO  org.iiitb.App - [RESULT - DIVISION] - 5.6
+2022-04-16 08:59:08.984 [main] INFO  org.iiitb.App - [MULTIPLICATION] - 10.0 25.0
+2022-04-16 08:59:08.985 [main] INFO  org.iiitb.App - [RESULT - MULTIPLICATION] - 250.0
+2022-04-16 09:04:50.718 [main] INFO  org.iiitb.App - [DIVISION] - 15.0 0.0
+2022-04-16 09:04:50.720 [main] INFO  org.iiitb.App - [RESULT - DIVISION] - Infinity
+2022-04-16 09:04:50.723 [main] INFO  org.iiitb.App - [ADDITION] - 15.0 20.0
+2022-04-16 09:04:50.723 [main] INFO  org.iiitb.App - [RESULT - ADDITION] - 35.0
+2022-04-16 09:04:50.725 [main] INFO  org.iiitb.App - [SUBTRACTION] - 25.0 20.0
+2022-04-16 09:04:50.725 [main] INFO  org.iiitb.App - [RESULT - SUBTRACTION] - 5.0
+2022-04-16 09:04:50.726 [main] INFO  org.iiitb.App - [DIVISION] - 56.0 10.0
+2022-04-16 09:04:50.726 [main] INFO  org.iiitb.App - [RESULT - DIVISION] - 5.6
+2022-04-16 09:04:50.726 [main] INFO  org.iiitb.App - [MULTIPLICATION] - 10.0 25.0
+2022-04-16 09:04:50.726 [main] INFO  org.iiitb.App - [RESULT - MULTIPLICATION] - 250.0
+2022-04-16 09:06:45.802 [main] INFO  org.iiitb.App - [DIVISION] - 15.0 0.0
+2022-04-16 09:06:45.804 [main] INFO  org.iiitb.App - [RESULT - DIVISION] - Infinity
+2022-04-16 09:06:45.805 [main] INFO  org.iiitb.App - [ADDITION] - 15.0 20.0
+2022-04-16 09:06:45.805 [main] INFO  org.iiitb.App - [RESULT - ADDITION] - 35.0
+2022-04-16 09:06:45.808 [main] INFO  org.iiitb.App - [SUBTRACTION] - 25.0 20.0
+2022-04-16 09:06:45.808 [main] INFO  org.iiitb.App - [RESULT - SUBTRACTION] - 5.0
+2022-04-16 09:06:45.809 [main] INFO  org.iiitb.App - [DIVISION] - 56.0 10.0
+2022-04-16 09:06:45.810 [main] INFO  org.iiitb.App - [RESULT - DIVISION] - 5.6
+2022-04-16 09:06:45.812 [main] INFO  org.iiitb.App - [MULTIPLICATION] - 10.0 25.0
+2022-04-16 09:06:45.812 [main] INFO  org.iiitb.App - [RESULT - MULTIPLICATION] - 250.0
+2022-04-16 09:45:36.884 [main] INFO  org.iiitb.App - [DIVISION] - 15.0 0.0
+2022-04-16 09:45:36.887 [main] INFO  org.iiitb.App - [RESULT - DIVISION] - Infinity
+2022-04-16 09:45:36.891 [main] INFO  org.iiitb.App - [ADDITION] - 15.0 20.0
+2022-04-16 09:45:36.891 [main] INFO  org.iiitb.App - [RESULT - ADDITION] - 35.0
+2022-04-16 09:45:36.893 [main] INFO  org.iiitb.App - [SUBTRACTION] - 25.0 20.0
+2022-04-16 09:45:36.893 [main] INFO  org.iiitb.App - [RESULT - SUBTRACTION] - 5.0
+2022-04-16 09:45:36.894 [main] INFO  org.iiitb.App - [DIVISION] - 56.0 10.0
+2022-04-16 09:45:36.895 [main] INFO  org.iiitb.App - [RESULT - DIVISION] - 5.6
+2022-04-16 09:45:36.895 [main] INFO  org.iiitb.App - [MULTIPLICATION] - 10.0 25.0
+2022-04-16 09:45:36.896 [main] INFO  org.iiitb.App - [RESULT - MULTIPLICATION] - 250.0
+2022-04-16 09:49:27.218 [main] INFO  org.iiitb.App - [DIVISION] - 15.0 0.0
+2022-04-16 09:49:27.221 [main] INFO  org.iiitb.App - [RESULT - DIVISION] - Infinity
+2022-04-16 09:49:27.224 [main] INFO  org.iiitb.App - [ADDITION] - 15.0 20.0
+2022-04-16 09:49:27.225 [main] INFO  org.iiitb.App - [RESULT - ADDITION] - 35.0
+2022-04-16 09:49:27.226 [main] INFO  org.iiitb.App - [SUBTRACTION] - 25.0 20.0
+2022-04-16 09:49:27.227 [main] INFO  org.iiitb.App - [RESULT - SUBTRACTION] - 5.0
+2022-04-16 09:49:27.229 [main] INFO  org.iiitb.App - [DIVISION] - 56.0 10.0
+2022-04-16 09:49:27.229 [main] INFO  org.iiitb.App - [RESULT - DIVISION] - 5.6
+2022-04-16 09:49:27.230 [main] INFO  org.iiitb.App - [MULTIPLICATION] - 10.0 25.0
+2022-04-16 09:49:27.231 [main] INFO  org.iiitb.App - [RESULT - MULTIPLICATION] - 250.0
+2022-04-16 11:02:13.196 [main] INFO  org.iiitb.App - [DIVISION] - 15.0 0.0
+2022-04-16 11:02:13.202 [main] INFO  org.iiitb.App - [ADDITION] - 15.0 20.0
+2022-04-16 11:02:13.203 [main] INFO  org.iiitb.App - [RESULT - ADDITION] - 35.0
+2022-04-16 11:02:13.206 [main] INFO  org.iiitb.App - [SUBTRACTION] - 25.0 20.0
+2022-04-16 11:02:13.206 [main] INFO  org.iiitb.App - [RESULT - SUBTRACTION] - 5.0
+2022-04-16 11:02:13.208 [main] INFO  org.iiitb.App - [DIVISION] - 56.0 10.0
+2022-04-16 11:02:13.208 [main] INFO  org.iiitb.App - [RESULT - DIVISION] - 5.6
+2022-04-16 11:02:13.209 [main] INFO  org.iiitb.App - [MULTIPLICATION] - 10.0 25.0
+2022-04-16 11:02:13.210 [main] INFO  org.iiitb.App - [RESULT - MULTIPLICATION] - 250.0
+2022-04-16 11:02:45.251 [main] INFO  org.iiitb.App - [DIVISION] - 15.0 0.0
+2022-04-16 11:02:45.254 [main] INFO  org.iiitb.App - [ADDITION] - 15.0 20.0
+2022-04-16 11:02:45.255 [main] INFO  org.iiitb.App - [RESULT - ADDITION] - 35.0
+2022-04-16 11:02:45.259 [main] INFO  org.iiitb.App - [SUBTRACTION] - 25.0 20.0
+2022-04-16 11:02:45.260 [main] INFO  org.iiitb.App - [RESULT - SUBTRACTION] - 5.0
+2022-04-16 11:02:45.261 [main] INFO  org.iiitb.App - [DIVISION] - 56.0 10.0
+2022-04-16 11:02:45.262 [main] INFO  org.iiitb.App - [RESULT - DIVISION] - 5.6
+2022-04-16 11:02:45.263 [main] INFO  org.iiitb.App - [MULTIPLICATION] - 10.0 25.0
+2022-04-16 11:02:45.263 [main] INFO  org.iiitb.App - [RESULT - MULTIPLICATION] - 250.0
+2022-04-16 11:55:12.665 [main] INFO  org.iiitb.App - [DIVISION] - 15.0 0.0
+2022-04-16 11:55:12.669 [main] INFO  org.iiitb.App - [ADDITION] - 15.0 20.0
+2022-04-16 11:55:12.669 [main] INFO  org.iiitb.App - [RESULT - ADDITION] - 35.0
+2022-04-16 11:55:12.670 [main] INFO  org.iiitb.App - [SUBTRACTION] - 25.0 20.0
+2022-04-16 11:55:12.671 [main] INFO  org.iiitb.App - [RESULT - SUBTRACTION] - 5.0
+2022-04-16 11:55:12.671 [main] INFO  org.iiitb.App - [FACTORIAL] - 5.0
+2022-04-16 11:55:12.672 [main] INFO  org.iiitb.App - [RESULT - FACTORIAL] - 120.0
+2022-04-16 11:55:12.673 [main] INFO  org.iiitb.App - [DIVISION] - 56.0 10.0
+2022-04-16 11:55:12.673 [main] INFO  org.iiitb.App - [RESULT - DIVISION] - 5.6
+2022-04-16 11:55:12.675 [main] INFO  org.iiitb.App - [MULTIPLICATION] - 10.0 25.0
+2022-04-16 11:55:12.675 [main] INFO  org.iiitb.App - [RESULT - MULTIPLICATION] - 250.0
+2022-04-16 11:55:12.675 [main] INFO  org.iiitb.App - [FACTORIAL] - 5.0
+2022-04-16 11:55:12.676 [main] INFO  org.iiitb.App - [RESULT - FACTORIAL] - 120.0
+2022-04-16 11:57:12.971 [main] INFO  org.iiitb.App - [DIVISION] - 15.0 0.0
+2022-04-16 11:57:12.975 [main] INFO  org.iiitb.App - [ADDITION] - 15.0 20.0
+2022-04-16 11:57:12.975 [main] INFO  org.iiitb.App - [RESULT - ADDITION] - 35.0
+2022-04-16 11:57:12.976 [main] INFO  org.iiitb.App - [SUBTRACTION] - 25.0 20.0
+2022-04-16 11:57:12.976 [main] INFO  org.iiitb.App - [RESULT - SUBTRACTION] - 5.0
+2022-04-16 11:57:12.977 [main] INFO  org.iiitb.App - [FACTORIAL] - 5.0
+2022-04-16 11:57:12.977 [main] INFO  org.iiitb.App - [RESULT - FACTORIAL] - 120.0
+2022-04-16 11:57:12.977 [main] INFO  org.iiitb.App - [DIVISION] - 56.0 10.0
+2022-04-16 11:57:12.977 [main] INFO  org.iiitb.App - [RESULT - DIVISION] - 5.6
+2022-04-16 11:57:12.978 [main] INFO  org.iiitb.App - [MULTIPLICATION] - 10.0 25.0
+2022-04-16 11:57:12.978 [main] INFO  org.iiitb.App - [RESULT - MULTIPLICATION] - 250.0
+2022-04-16 11:57:12.978 [main] INFO  org.iiitb.App - [FACTORIAL] - -5.0
+2022-04-16 11:59:50.451 [main] INFO  org.iiitb.App - [DIVISION] - 15.0 0.0
+2022-04-16 11:59:50.459 [main] INFO  org.iiitb.App - [ADDITION] - 15.0 20.0
+2022-04-16 11:59:50.460 [main] INFO  org.iiitb.App - [RESULT - ADDITION] - 35.0
+2022-04-16 11:59:50.463 [main] INFO  org.iiitb.App - [SUBTRACTION] - 25.0 20.0
+2022-04-16 11:59:50.464 [main] INFO  org.iiitb.App - [RESULT - SUBTRACTION] - 5.0
+2022-04-16 11:59:50.465 [main] INFO  org.iiitb.App - [FACTORIAL] - 5.0
+2022-04-16 11:59:50.465 [main] INFO  org.iiitb.App - [RESULT - FACTORIAL] - 120.0
+2022-04-16 11:59:50.465 [main] INFO  org.iiitb.App - [DIVISION] - 56.0 10.0
+2022-04-16 11:59:50.466 [main] INFO  org.iiitb.App - [RESULT - DIVISION] - 5.6
+2022-04-16 11:59:50.466 [main] INFO  org.iiitb.App - [MULTIPLICATION] - 10.0 25.0
+2022-04-16 11:59:50.467 [main] INFO  org.iiitb.App - [RESULT - MULTIPLICATION] - 250.0
+2022-04-16 11:59:50.467 [main] INFO  org.iiitb.App - [FACTORIAL] - -5.0

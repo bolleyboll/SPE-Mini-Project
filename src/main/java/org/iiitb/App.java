@@ -36,16 +36,28 @@ public class App {
 
     public double division(double a, double b) {
         logger.info("[DIVISION] - " + a + " " + b);
-        double res = a / b;
-        logger.info("[RESULT - DIVISION] - " + res);
-        return res;
+        double res = 0.0;
+
+        if (b <= 0) {
+            System.out.println("Cannot Divide By Zero.\n");
+            throw new ArithmeticException();
+        } else {
+            res = a / b;
+            logger.info("[RESULT - DIVISION] - " + res);
+            return res;
+        }
     }
 
     public double factorial(double n) {
         logger.info("[FACTORIAL] - " + n);
-        double res = fact(n);
-        logger.info("[RESULT - FACTORIAL] - " + res);
-        return res;
+        if (n < 0) {
+            System.out.println("Factorial of -ve Numbers isn't defined.\n");
+            throw new IllegalArgumentException();
+        } else {
+            double res = fact(n);
+            logger.info("[RESULT - FACTORIAL] - " + res);
+            return res;
+        }
     }
 
     public double fact(double n) {
@@ -226,7 +238,7 @@ public class App {
                     + "4. Division(n/d)\n" + "5. Factorial of n(n!)\n" + "6. log\u2081\u2080 n\n" + "7. log\u2090 b\n"
                     + "8. Square Root of n(\u221An)\n" + "9. n Squared(n\u00B2)\n" + "10. a\u207F\n" + "11. sin x\n"
                     + "12. cos x\n" + "13. tan x\n" + "14. sinh x\n" + "15. cosh x\n" + "16. tanh x\n"
-                    + "17. Random 3k Calls\n" + "18. Exit";
+                    + "17. Random 3k Calls\n" + "18. Exit\n";
 
             System.out.println("Choose any Operation");
             System.out.println(menu);
