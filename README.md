@@ -1,3 +1,3 @@
 # SPE-Mini-Project
 
-`%{HTTPDATE:timestamp_string} \[%{GREEDYDATA:thread}\] \[%{LOGLEVEL:level}\] %{GREEDYDATA:logger} %{GREEDYDATA:action} \- %{GREEDYDATA:input} \- %{GREEDYDATA:output}`
+`%{TIMESTAMP_ISO8601:timestamp} \[%{GREEDYDATA:thread}\] %{LOGLEVEL:level} %{GREEDYDATA:logger} \[%{GREEDYDATA:action}\] \- (%{DATA:input})? \- %{GREEDYDATA:output}`
