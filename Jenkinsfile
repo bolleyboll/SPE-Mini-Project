@@ -25,20 +25,13 @@ pipeline {
                 }
             }
         }
-        stage('Docker Image Generation') {
+        stage('Docker Image Generation & Upload to DockerHUb') {
             steps {
                 script{
                     img = docker.build "freshlyjuiced/spe-mini-proj:latest"
                     docker.withRegistry('', 'cred-docker'){
                         img.push()
                     }
-                }
-            }
-        }
-        stage('Push Docker Image to DockerHub') {
-            steps {
-                script{
-                    
                 }
             }
         }
