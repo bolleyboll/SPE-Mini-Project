@@ -1,7 +1,4 @@
 pipeline {
-    environment{
-        img = ''
-    }
     agent any
 
     stages {
