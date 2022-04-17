@@ -10,13 +10,6 @@ pipeline {
                 git branch: 'main', url: 'https://github.com/bolleyboll/SPE-Mini-Project.git'
             }
         }
-        stage('Clean Docker Images and Containers') {
-            steps {
-                script{
-                    sh 'docker rmi freshlyjuiced/spe-mini-proj'
-                }
-            }
-        }
         stage('mvn build') {
             steps {
                 script{
