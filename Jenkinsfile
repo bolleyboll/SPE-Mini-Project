@@ -13,7 +13,6 @@ pipeline {
         stage('Clean Docker Images and Containers') {
             steps {
                 script{
-                    sh 'docker rm $(docker ps -aq)'
                     sh 'docker rmi freshlyjuiced/spe-mini-proj'
                 }
             }
