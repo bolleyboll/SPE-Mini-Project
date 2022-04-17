@@ -16,21 +16,21 @@ public class App {
     public double addition(double a, double b) {
         logger.info("[ADDITION] - " + a + " " + b);
         double res = a + b;
-        logger.info("[RESULT - ADDITION] - " + res);
+        logger.info("[RESULT] - " + res);
         return res;
     }
 
     public double subtraction(double a, double b) {
         logger.info("[SUBTRACTION] - " + a + " " + b);
         double res = a - b;
-        logger.info("[RESULT - SUBTRACTION] - " + res);
+        logger.info("[RESULT] - " + res);
         return res;
     }
 
     public double multiplication(double a, double b) {
         logger.info("[MULTIPLICATION] - " + a + " " + b);
         double res = a * b;
-        logger.info("[RESULT - MULTIPLICATION] - " + res);
+        logger.info("[RESULT] - " + res);
         return res;
     }
 
@@ -43,7 +43,7 @@ public class App {
             throw new ArithmeticException();
         } else {
             res = a / b;
-            logger.info("[RESULT - DIVISION] - " + res);
+            logger.info("[RESULT] - " + res);
             return res;
         }
     }
@@ -51,11 +51,11 @@ public class App {
     public double factorial(double n) {
         logger.info("[FACTORIAL] - " + n);
         if (n < 0) {
-            System.out.println("Factorial of -ve Numbers isn't defined.\n");
+            System.out.println("Factorial of -ve numbers isn't defined.\n");
             throw new IllegalArgumentException();
         } else {
             double res = fact(n);
-            logger.info("[RESULT - FACTORIAL] - " + res);
+            logger.info("[RESULT] - " + res);
             return res;
         }
     }
@@ -70,134 +70,160 @@ public class App {
 
     public double logBase10(double n) {
         logger.info("[LOGBASE10] - " + n);
-        double res = Math.log10(n);
-        logger.info("[RESULT - LOGBASE10] - " + res);
-        return res;
+        if (n <= 0) {
+            System.out.println("Logarithm of 0 or -ve numbers isn't defined.\n");
+            throw new IllegalArgumentException();
+        } else {
+            double res = Math.log10(n);
+            logger.info("[RESULT] - " + res);
+            return res;
+        }
     }
 
     public double logBBaseA(double a, double b) {
         logger.info("[LOG B BASE A] - " + b + " " + a);
-        double res = Math.log10(a) / Math.log10(b);
-        logger.info("[RESULT - LOG B BASE A] - " + res);
-        return res;
+        if (b <= 0 || a <= 1) {
+            System.out
+                    .println("Logarithm of 0 or -ve numbers isn't defined. Logarithmic Base must be greater than 1\n");
+            throw new IllegalArgumentException();
+        } else {
+            double res = Math.log10(a) / Math.log10(b);
+            logger.info("[RESULT] - " + res);
+            return res;
+        }
     }
 
     public double sqrt(double n) {
         logger.info("[SQRT] - " + n);
-        double res = Math.sqrt(n);
-        logger.info("[RESULT - SQRT] - " + res);
-        return res;
+        if (n < 0) {
+            System.out.println("Square Root of -ve Numbers isn't defined.\n");
+            throw new IllegalArgumentException();
+        } else {
+            double res = Math.sqrt(n);
+            logger.info("[RESULT] - " + res);
+            return res;
+        }
     }
 
     public double squared(double n) {
         logger.info("[SQUARED] - " + n);
         double res = Math.pow(n, 2);
-        logger.info("[RESULT - SQUARED] - " + res);
+        logger.info("[RESULT] - " + res);
         return res;
     }
 
     public double pow(double a, double n) {
         logger.info("[POW] - " + a + " " + n);
         double res = Math.pow(a, n);
-        logger.info("[RESULT - POW] - " + res);
+        logger.info("[RESULT] - " + res);
         return res;
     }
 
     public double sin(double x) {
         logger.info("[SIN] - " + x);
         double res = Math.sin(x);
-        logger.info("[RESULT - SIN] - " + res);
+        logger.info("[RESULT] - " + res);
         return res;
     }
 
     public double cos(double x) {
         logger.info("[COS] - " + x);
         double res = Math.cos(x);
-        logger.info("[RESULT - COS] - " + res);
+        logger.info("[RESULT] - " + res);
         return res;
     }
 
     public double tan(double x) {
         logger.info("[TAN] - " + x);
         double res = Math.tan(x);
-        logger.info("[RESULT - TAN] - " + res);
+        logger.info("[RESULT] - " + res);
         return res;
     }
 
     public double sinh(double x) {
         logger.info("[SINH] - " + x);
         double res = Math.sinh(x);
-        logger.info("[RESULT - SINH] - " + res);
+        logger.info("[RESULT] - " + res);
         return res;
     }
 
     public double cosh(double x) {
         logger.info("[COSH] - " + x);
         double res = Math.cosh(x);
-        logger.info("[RESULT - COSH] - " + res);
+        logger.info("[RESULT] - " + res);
         return res;
     }
 
     public double tanh(double x) {
         logger.info("[TANH] - " + x);
         double res = Math.tanh(x);
-        logger.info("[RESULT - TANH] - " + res);
+        logger.info("[RESULT] - " + res);
         return res;
     }
 
     public void random() {
+
+        double a, b, n;
+
         for (int i = 0; i < 3000; i++) {
-            int res = new Random().nextInt(16);
+            Random r = new Random();
+            int res = r.nextInt(16);
 
             switch (res) {
                 case 0:
-                    addition(new Random().nextDouble() * 100, new Random().nextDouble() * 100);
+                    addition(r.nextDouble() * 100, r.nextDouble() * 100);
                     break;
 
                 case 1:
-                    subtraction(new Random().nextDouble() * 100, new Random().nextDouble() * 10);
+                    subtraction(r.nextDouble() * 100, r.nextDouble() * 10);
                     break;
                 case 2:
-                    multiplication(new Random().nextDouble() * 10, new Random().nextDouble() * 10);
+                    multiplication(r.nextDouble() * 10, r.nextDouble() * 10);
                     break;
                 case 3:
-                    division(new Random().nextDouble() * 100, new Random().nextDouble() * 10);
+                    b = 1 + (100 - 1) * r.nextDouble();
+                    division(r.nextDouble() * 100, b);
                     break;
                 case 4:
-                    factorial(new Random().nextDouble() * 100);
+                    n = 1 + (100 - 1) * r.nextDouble();
+                    factorial(n);
                     break;
                 case 5:
-                    logBase10(new Random().nextDouble() * 10);
+                    n = 2 + (100 - 2) * r.nextDouble();
+                    logBase10(n);
                     break;
                 case 6:
-                    logBBaseA(new Random().nextDouble() * 10, new Random().nextDouble() * 10);
+                    a = 2 + (100 - 2) * r.nextDouble();
+                    b = 2 + (100 - 2) * r.nextDouble();
+                    logBBaseA(a, b);
                     break;
                 case 7:
-                    sqrt(new Random().nextDouble() * 1000);
+                    n = 0 + (100 - 0) * r.nextDouble();
+                    sqrt(n);
                     break;
                 case 8:
-                    squared(new Random().nextDouble() * 10);
+                    squared(r.nextDouble() * 10);
                     break;
                 case 9:
-                    pow(new Random().nextDouble() * 100, new Random().nextDouble() * 10);
+                    pow(r.nextDouble() * 100, r.nextDouble() * 10);
                     break;
                 case 10:
-                    sin(new Random().nextDouble() * 10);
+                    sin(r.nextDouble() * 10);
                     break;
                 case 11:
-                    cos(new Random().nextDouble() * 10);
+                    cos(r.nextDouble() * 10);
                     break;
                 case 12:
-                    tan(new Random().nextDouble() * 10);
+                    tan(r.nextDouble() * 10);
                     break;
                 case 13:
-                    sinh(new Random().nextDouble() * 10);
+                    sinh(r.nextDouble() * 10);
                     break;
                 case 14:
-                    cosh(new Random().nextDouble() * 10);
+                    cosh(r.nextDouble() * 10);
                     break;
                 case 15:
-                    tanh(new Random().nextDouble() * 10);
+                    tanh(r.nextDouble() * 10);
                     break;
                 default:
                     break;
