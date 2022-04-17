@@ -37,7 +37,7 @@
 
     - name: Create & Run a Container
       shell: |
-        docker run --name calc -it freshlyjuiced/spe-mini-proj;
+        docker run --name calc freshlyjuiced/spe-mini-proj;
 
     - name: Attach Terminal of User bolleyboll
       shell: |
