@@ -85,19 +85,17 @@ public class AppTest {
     }
 
     @Test
-    public void testLogBaseA() {
+    public void testNatLogA() {
         double a = 5.0;
-        double b = 5.0;
-        double expectedResult = 1.0;
-        double result = calcTest.logBBaseA(a, b);
+        double expectedResult = 1.6094379124341003;
+        double result = calcTest.natLogA(a);
         Assert.assertEquals(expectedResult, result, 0.0000);
     }
 
     @Test(expected = IllegalArgumentException.class)
-    public void testNegLogBaseA() {
-        double a = 1.0;
-        double b = 0.0;
-        calcTest.logBBaseA(a, b);
+    public void testNegNatLogA() {
+        double a = 0.0;
+        calcTest.natLogA(a);
     }
 
     @Test

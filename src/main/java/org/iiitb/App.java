@@ -80,14 +80,13 @@ public class App {
         }
     }
 
-    public double logBBaseA(double a, double b) {
-        logger.info("[LOG B BASE A] - " + b + " " + a);
-        if (b <= 0 || a <= 1) {
-            System.out
-                    .println("Logarithm of 0 or -ve numbers isn't defined. Logarithmic Base must be greater than 1\n");
+    public double natLogA(double a) {
+        logger.info("[NATURAL LOG A] - " + a);
+        if (a <= 0) {
+            System.out.println("Logarithm of 0 or -ve numbers isn't defined.\n");
             throw new IllegalArgumentException();
         } else {
-            double res = Math.log10(a) / Math.log10(b);
+            double res = Math.log(a);
             logger.info("[RESULT] - " + res);
             return res;
         }
@@ -194,8 +193,7 @@ public class App {
                     break;
                 case 6:
                     a = 2 + (100 - 2) * r.nextDouble();
-                    b = 2 + (100 - 2) * r.nextDouble();
-                    logBBaseA(a, b);
+                    natLogA(a);
                     break;
                 case 7:
                     n = 0 + (100 - 0) * r.nextDouble();
@@ -242,7 +240,7 @@ public class App {
         do {
             int choice;
             String menu = "1. Addition(a+b)\n" + "2. Subtraction(a-b)\n" + "3. Multiplication(a*b)\n"
-                    + "4. Division(n/d)\n" + "5. Factorial of n(n!)\n" + "6. log\u2081\u2080 n\n" + "7. log\u2090 b\n"
+                    + "4. Division(n/d)\n" + "5. Factorial of n(n!)\n" + "6. log\u2081\u2080 n\n" + "7. log\u2091 a\n"
                     + "8. Square Root of n(\u221An)\n" + "9. n Squared(n\u00B2)\n" + "10. a\u207F\n" + "11. sin x\n"
                     + "12. cos x\n" + "13. tan x\n" + "14. sinh x\n" + "15. cosh x\n" + "16. tanh x\n"
                     + "17. Random 3k Calls\n" + "18. Exit\n";
@@ -305,11 +303,9 @@ public class App {
                     System.out.println("\n");
                     break;
                 case 7:
-                    System.out.print("\nEnter a(base): ");
+                    System.out.print("\nEnter a: ");
                     a = sc.nextDouble();
-                    System.out.print("\nEnter b: ");
-                    b = sc.nextDouble();
-                    System.out.println("log " + b + " base " + a + " is: " + calc.logBBaseA(a, b));
+                    System.out.println("log\u2091 " + a + " is: " + calc.natLogA(a));
                     System.out.println("\n");
                     break;
                 case 8:

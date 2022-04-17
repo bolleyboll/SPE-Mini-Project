@@ -6035,3 +6035,79 @@
 2022-04-17 11:08:33.996 [main] INFO  org.iiitb.App - [RESULT] - 16.0
 2022-04-17 11:08:33.996 [main] INFO  org.iiitb.App - [LOGBASE10] - 5.0
 2022-04-17 11:08:33.996 [main] INFO  org.iiitb.App - [RESULT] - 0.6989700043360189
+2022-04-17 12:22:06.384 [main] INFO  org.iiitb.App - [DIVISION] - 15.0 0.0
+2022-04-17 12:22:06.388 [main] INFO  org.iiitb.App - [ADDITION] - 15.0 20.0
+2022-04-17 12:22:06.388 [main] INFO  org.iiitb.App - [RESULT] - 35.0
+2022-04-17 12:22:06.389 [main] INFO  org.iiitb.App - [COS] - 4.0
+2022-04-17 12:22:06.389 [main] INFO  org.iiitb.App - [RESULT] - -0.6536436208636119
+2022-04-17 12:22:06.389 [main] INFO  org.iiitb.App - [SIN] - 4.0
+2022-04-17 12:22:06.390 [main] INFO  org.iiitb.App - [RESULT] - -0.7568024953079282
+2022-04-17 12:22:06.390 [main] INFO  org.iiitb.App - [TAN] - 4.0
+2022-04-17 12:22:06.390 [main] INFO  org.iiitb.App - [RESULT] - 1.1578212823495775
+2022-04-17 12:22:06.391 [main] INFO  org.iiitb.App - [SUBTRACTION] - 25.0 20.0
+2022-04-17 12:22:06.391 [main] INFO  org.iiitb.App - [RESULT] - 5.0
+2022-04-17 12:22:06.391 [main] INFO  org.iiitb.App - [COSH] - 4.0
+2022-04-17 12:22:06.392 [main] INFO  org.iiitb.App - [RESULT] - 27.308232836016487
+2022-04-17 12:22:06.393 [main] INFO  org.iiitb.App - [POW] - 4.0 2.0
+2022-04-17 12:22:06.393 [main] INFO  org.iiitb.App - [RESULT] - 16.0
+2022-04-17 12:22:06.393 [main] INFO  org.iiitb.App - [SINH] - 4.0
+2022-04-17 12:22:06.393 [main] INFO  org.iiitb.App - [RESULT] - 27.28991719712775
+2022-04-17 12:22:06.393 [main] INFO  org.iiitb.App - [SQRT] - 4.0
+2022-04-17 12:22:06.394 [main] INFO  org.iiitb.App - [RESULT] - 2.0
+2022-04-17 12:22:06.394 [main] INFO  org.iiitb.App - [TANH] - 4.0
+2022-04-17 12:22:06.394 [main] INFO  org.iiitb.App - [RESULT] - 0.999329299739067
+2022-04-17 12:22:06.394 [main] INFO  org.iiitb.App - [FACTORIAL] - 5.0
+2022-04-17 12:22:06.394 [main] INFO  org.iiitb.App - [RESULT] - 120.0
+2022-04-17 12:22:06.395 [main] INFO  org.iiitb.App - [NATURAL LOG A] - 0.0
+2022-04-17 12:22:06.395 [main] INFO  org.iiitb.App - [DIVISION] - 56.0 10.0
+2022-04-17 12:22:06.395 [main] INFO  org.iiitb.App - [RESULT] - 5.6
+2022-04-17 12:22:06.395 [main] INFO  org.iiitb.App - [NATURAL LOG A] - 5.0
+2022-04-17 12:22:06.395 [main] INFO  org.iiitb.App - [RESULT] - 1.6094379124341003
+2022-04-17 12:22:06.398 [main] INFO  org.iiitb.App - [MULTIPLICATION] - 10.0 25.0
+2022-04-17 12:22:06.398 [main] INFO  org.iiitb.App - [RESULT] - 250.0
+2022-04-17 12:22:06.399 [main] INFO  org.iiitb.App - [FACTORIAL] - -5.0
+2022-04-17 12:22:06.399 [main] INFO  org.iiitb.App - [SQRT] - -3.0
+2022-04-17 12:22:06.399 [main] INFO  org.iiitb.App - [LOGBASE10] - -5.0
+2022-04-17 12:22:06.400 [main] INFO  org.iiitb.App - [SQUARED] - 4.0
+2022-04-17 12:22:06.400 [main] INFO  org.iiitb.App - [RESULT] - 16.0
+2022-04-17 12:22:06.400 [main] INFO  org.iiitb.App - [LOGBASE10] - 5.0
+2022-04-17 12:22:06.400 [main] INFO  org.iiitb.App - [RESULT] - 0.6989700043360189
+2022-04-17 12:22:28.250 [main] INFO  org.iiitb.App - [DIVISION] - 15.0 0.0
+2022-04-17 12:22:28.252 [main] INFO  org.iiitb.App - [ADDITION] - 15.0 20.0
+2022-04-17 12:22:28.253 [main] INFO  org.iiitb.App - [RESULT] - 35.0
+2022-04-17 12:22:28.253 [main] INFO  org.iiitb.App - [COS] - 4.0
+2022-04-17 12:22:28.253 [main] INFO  org.iiitb.App - [RESULT] - -0.6536436208636119
+2022-04-17 12:22:28.254 [main] INFO  org.iiitb.App - [SIN] - 4.0
+2022-04-17 12:22:28.254 [main] INFO  org.iiitb.App - [RESULT] - -0.7568024953079282
+2022-04-17 12:22:28.254 [main] INFO  org.iiitb.App - [TAN] - 4.0
+2022-04-17 12:22:28.254 [main] INFO  org.iiitb.App - [RESULT] - 1.1578212823495775
+2022-04-17 12:22:28.254 [main] INFO  org.iiitb.App - [SUBTRACTION] - 25.0 20.0
+2022-04-17 12:22:28.255 [main] INFO  org.iiitb.App - [RESULT] - 5.0
+2022-04-17 12:22:28.255 [main] INFO  org.iiitb.App - [COSH] - 4.0
+2022-04-17 12:22:28.255 [main] INFO  org.iiitb.App - [RESULT] - 27.308232836016487
+2022-04-17 12:22:28.256 [main] INFO  org.iiitb.App - [POW] - 4.0 2.0
+2022-04-17 12:22:28.256 [main] INFO  org.iiitb.App - [RESULT] - 16.0
+2022-04-17 12:22:28.256 [main] INFO  org.iiitb.App - [SINH] - 4.0
+2022-04-17 12:22:28.256 [main] INFO  org.iiitb.App - [RESULT] - 27.28991719712775
+2022-04-17 12:22:28.257 [main] INFO  org.iiitb.App - [SQRT] - 4.0
+2022-04-17 12:22:28.257 [main] INFO  org.iiitb.App - [RESULT] - 2.0
+2022-04-17 12:22:28.257 [main] INFO  org.iiitb.App - [TANH] - 4.0
+2022-04-17 12:22:28.257 [main] INFO  org.iiitb.App - [RESULT] - 0.999329299739067
+2022-04-17 12:22:28.257 [main] INFO  org.iiitb.App - [FACTORIAL] - 5.0
+2022-04-17 12:22:28.257 [main] INFO  org.iiitb.App - [RESULT] - 120.0
+2022-04-17 12:22:28.258 [main] INFO  org.iiitb.App - [NATURAL LOG A] - 0.0
+2022-04-17 12:22:28.258 [main] INFO  org.iiitb.App - [DIVISION] - 56.0 10.0
+2022-04-17 12:22:28.259 [main] INFO  org.iiitb.App - [RESULT] - 5.6
+2022-04-17 12:22:28.259 [main] INFO  org.iiitb.App - [NATURAL LOG A] - 5.0
+2022-04-17 12:22:28.259 [main] INFO  org.iiitb.App - [RESULT] - 1.6094379124341003
+2022-04-17 12:22:28.261 [main] INFO  org.iiitb.App - [MULTIPLICATION] - 10.0 25.0
+2022-04-17 12:22:28.261 [main] INFO  org.iiitb.App - [RESULT] - 250.0
+2022-04-17 12:22:28.261 [main] INFO  org.iiitb.App - [FACTORIAL] - -5.0
+2022-04-17 12:22:28.262 [main] INFO  org.iiitb.App - [SQRT] - -3.0
+2022-04-17 12:22:28.262 [main] INFO  org.iiitb.App - [LOGBASE10] - -5.0
+2022-04-17 12:22:28.263 [main] INFO  org.iiitb.App - [SQUARED] - 4.0
+2022-04-17 12:22:28.263 [main] INFO  org.iiitb.App - [RESULT] - 16.0
+2022-04-17 12:22:28.263 [main] INFO  org.iiitb.App - [LOGBASE10] - 5.0
+2022-04-17 12:22:28.263 [main] INFO  org.iiitb.App - [RESULT] - 0.6989700043360189
+2022-04-17 12:22:58.579 [main] INFO  org.iiitb.App - [NATURAL LOG A] - 25.0
+2022-04-17 12:22:58.580 [main] INFO  org.iiitb.App - [RESULT] - 3.2188758248682006
