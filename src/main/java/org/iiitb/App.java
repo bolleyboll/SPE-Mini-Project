@@ -262,7 +262,7 @@ public class App {
                     a = sc.nextDouble();
                     System.out.print("\nEnter b: ");
                     b = sc.nextDouble();
-                    System.out.println("Sum of " + a + " & " + b + " is: " + calc.addition(a, b));
+                    // System.out.println("Sum of " + a + " & " + b + " is: " + calc.addition(a, b));
                     System.out.println("\n");
 
                     break;

@@ -14,7 +14,7 @@ pipeline {
                 }
             }
         }
-        stage('Docker Image Generation & Upload to DockerHUb') {
+        stage('Docker Image Generation & Upload to DockerHub') {
             steps {
                 script{
                     img = docker.build "freshlyjuiced/spe-mini-proj:latest"
