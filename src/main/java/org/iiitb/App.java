@@ -239,7 +239,7 @@ public class App {
 
         do {
             int choice;
-            String menu = "1. Addition(a+b)\n" + "2. Subtraction(a-b)\n" + "3. Multiplication(a*b)\n"
+            String menu = "1. Addition(a*b)\n" + "2. Subtraction(a-b)\n" + "3. Multiplication(a*b)\n"
                     + "4. Division(n/d)\n" + "5. Factorial of n(n!)\n" + "6. log\u2081\u2080 n\n" + "7. log\u2091 a\n"
                     + "8. Square Root of n(\u221An)\n" + "9. n Squared(n\u00B2)\n" + "10. a\u207F\n" + "11. sin x\n"
                     + "12. cos x\n" + "13. tan x\n" + "14. sinh x\n" + "15. cosh x\n" + "16. tanh x\n"
